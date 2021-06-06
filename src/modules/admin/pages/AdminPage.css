@@ -1,0 +1,56 @@
+.admin-container {
+  width: 100%;
+  height: 100vh;
+  background: #161c27;
+  padding: 64px;
+}
+
+.admin-container .description {
+  margin-top: 48px;
+  color: #fff;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.admin-container .description .title {
+  font-size: 20px;
+}
+
+.admin-container .loading-container {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.admin-container .loading-container p {
+    opacity: .6;
+}
+
+.admin-container .description .total {
+  font-size: 14px;
+  margin-top: 4px;
+  opacity: 0.5;
+}
+
+.admin-container h1 {
+  color: #fff;
+}
+.admin-container table {
+  color: #fff;
+  width: 50%;
+  margin-top: 32px;
+}
+
+.admin-container table thead th {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.admin-container table tbody tr td {
+  padding: 8px 0px;
+}
