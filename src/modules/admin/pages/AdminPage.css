@@ -3,6 +3,7 @@
   height: 100vh;
   background: #161c27;
   padding: 64px;
+  overflow: auto;
 }
 
 .admin-container .description {
